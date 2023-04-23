@@ -32,7 +32,7 @@
   </header>
   <!-- header Section end -->
   <main class="mt-5">
-    <section class="lg:px-12 flex flex-col md:flex-col lg:flex-row">
+    <section class="flex flex-col md:flex-col lg:flex-row">
 
       <!--  Cards Section  -->
       <div
@@ -45,18 +45,20 @@
 
           </figure>
           <div class="text-center">
-            <h2 class="text-center my-3 font-bold text-3xl">Triangle</h2>
+            <h2 id="name-triangle" class="text-center my-3 font-bold text-3xl">Triangle</h2>
             <p class="mb-2 text-2xl text-inherit font-semibold">
               Area (A) = 0.5 × b × h
             </p>
             <div class="text-2xl font-semibold text-black-200">
-              <input class="px-4 rounded-xl w-24 bg-slate-100 " type="text" name="" id="" placeholder="b" />
+              <input id="tri-inputfield-b" class="px-4 rounded-xl w-24 bg-slate-100 " type="text" name=""
+                placeholder="b" />
               <span>cm</span>
-              <input class="px-4 rounded-xl w-24 bg-slate-100 " type="text" name="" id="" placeholder="h" />
+              <input id="tri-inputfield-h" class="px-4 rounded-xl w-24 bg-slate-100 " type="text" name=""
+                placeholder="h" />
               <span>cm</span>
             </div>
             <div class="card-actions">
-              <button class="btn btn-info font-bold text-2xl card-body mx-4 my-10">
+              <button id="triangle-calculate" class="btn btn-info font-bold text-2xl card-body mx-4 my-10">
                 Calculate
               </button>
             </div>
@@ -80,7 +82,7 @@
               <span>cm</span>
             </div>
             <div class="card-actions">
-              <button class="btn btn-info font-bold text-2xl card-body mx-4 my-10">
+              <button id="rectangle-calculate" class="btn btn-info font-bold text-2xl card-body mx-4 my-10">
                 Calculate
               </button>
             </div>
@@ -188,20 +190,20 @@
       <!-- Card Section end -->
 
       <!-- Area Calculation Section -->
-      <div class="shadow-xl py-5 mt-10 single-card_details mx-auto lg:w-[25%] md:w-[90%] md-mx-auto sm:w-[100%]  ">
+      <div class=" shadow-xl  mt-10 single-card_details mx-auto lg:w-[30%] md:w-[90%] md-mx-auto sm:w-[100%]  ">
         <h1 class="text-3xl font-bold text-center underline">
           Area Calculation
         </h1>
         <div class=" w-[97%] mx-auto mt-5 center ">
           <div class="">
             <table class="table table-compact w-9/12 mx-auto">
-              <tbody>
-                <tr class="">
+              <tbody id="table-container">
+                <!-- <tr class="">
                   <th class="font-bold text-2xl">1</th>
                   <td class="text-2xl">Triangle</td>
                   <td class="text-2xl">12cm<sup>2</sup> </td>
                   <td><button class="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg">Convert to
-                      m<sup>2</sup></button></td>
+                      m<sup>2</sup></button></td> -->
                 </tr>
               </tbody>
               </tr>
@@ -213,6 +215,7 @@
     </section>
   </main>
   <script src="/js/index.js"></script>
+  <script src="js/utilities.js"></script>
 </body>
 
 </html>
