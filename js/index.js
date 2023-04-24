@@ -135,3 +135,9 @@ document
     const Area = 3.14 * a * b;
     SetAreaCalculation(Name, Area);
   });
+
+// Blog section connecting button------
+document.getElementById("btn-blog").addEventListener("click", function () {
+  const blog = "/blog.html";
+  window.location.href = blog;
+});
