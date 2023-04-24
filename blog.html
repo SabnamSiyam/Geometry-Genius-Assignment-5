@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <section class="bg-gray-10 py-12 bg-pink-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Questions & Answers Section -->
+      <div class="text-center">
+        <h2 class="text-4xl text-indigo-600 font-bold  ">Questions & Answers</h2>
+      </div>
+      <!-- return Home Btn -->
+      <div class=" mt-5 text-end">
+        <button id="btn-return-home" class="bg-blue-600 font-semibold text-white rounded-xl py-3 px-4 text-2xl">Return
+          Home</button>
+      </div>
+      <div class="mt-10">
+        <dl class=" w-[80%] mx-auto rounded-3xl  ">
+          <!-- Questions-1 -->
+          <div class="mt-5 bg-blue-100 rounded-3xl">
+            <h2 class="text-3xl px-6 pt-4 font-semibold text-green-600">1. What is DOM and what is the purpose of DOM?
+            </h2>
+            <p class="text-gray-500 text-2xl px-7 py-5"> Document Object Model (DOM) plays an important role between
+              web
+              pages and
+              programming languages.The main purpose of the DOM is to enable programs to access and manipulate web page
+              content, structure, and style, and style of documents such as HTML, and change the web page structures as
+              the developers want</p>
+          </div>
+          <!-- Questions-2 -->
+          <div class="mt-5 bg-blue-100 rounded-3xl">
+            <h2 class="text-3xl px-6 pt-4 font-semibold text-green-600">2.How will you select HTML elements using DOM?
+              Name the DOM methods.
+            </h2>
+            <p class="text-gray-500 text-2xl px-7 pt-4 "> I can select or find the Html Element from the DOM in 4 ways:
+            </p>
+            <ul class="text-gray-500 text-2xl px-7 pt-3 pb-5 ">
+              <li>1.getElementById.</li>
+              <li>2.getElementsByClassName.</li>
+              <li>3.getElementByTagName</li>
+              <li>4.QuerySelector & QuerySelectorALl.</li>
+            </ul>
+          </div>
+          <!-- Questions-3 -->
+          <div class="mt-5 bg-blue-100 rounded-3xl">
+            <h2 class="text-3xl px-6 pt-4 font-semibold text-green-600">3. What is event Bubble?
+            </h2>
+            <p class="text-gray-500 text-2xl px-7 py-5">The Event bubbling in JavaScript is a type of event propagation.
+              First of all, the event triggers the target element and consecutively triggers the parent element of the
+              target element. It remains to target the parent until it reaches the top of the parent.</p>
+          </div>
+          <!-- Questions-4 -->
+          <div class="mt-5 bg-blue-100 rounded-3xl">
+            <h2 class="text-3xl px-6 pt-4 font-semibold text-green-600">4.What is a Callback function and why will you
+              use it?
+            </h2>
+            <p class="text-gray-500 text-2xl px-7 py-5">A Callback function is a function that is to be executed after
+              another function has finished execution.
+              I will use the CallBack function for adding event handlers and getting input field values by passing
+              parameters. So don't need to rewrite the full function again and again. That's why I will use a callback
+              function.</p>
+          </div>
+          <!-- Questions-End -->
+      </div>
+    </div>
+  </section>
+  <script src="js/blog.js"></script>
+</body>
+
+</html>

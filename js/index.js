@@ -8,12 +8,12 @@ document
 
     // alert for invalid Number
     if (isNaN(b && h)) {
-      alert("Please Enter Valid Number");
+      alert("Please Enter Valid Number!!");
       return 0;
     }
     //  Alert for negative number
     if (b < 0 || h < 0) {
-      alert("Please Enter Valid positive Number");
+      alert("Please Enter Valid positive Number!!!!");
       return 0;
     }
     // Area (A) = 0.5 × b × h
@@ -31,12 +31,12 @@ document
 
     // alert for invalid Number
     if (isNaN(w && l)) {
-      alert("Please Enter Valid Number");
+      alert("Please Enter Valid Number!!");
       return 0;
     }
     //  Alert for negative number
     if (w < 0 || l < 0) {
-      alert("Please Enter Valid positive Number");
+      alert("Please Enter Valid positive Number!!!!");
       return 0;
     }
     // Area (A) = w × l
@@ -54,12 +54,12 @@ document
 
     // alert for invalid Number
     if (isNaN(b && h)) {
-      alert("Please Enter Valid Number");
+      alert("Please Enter Valid Number!!");
       return 0;
     }
     //  Alert for negative number
     if (b < 0 || h < 0) {
-      alert("Please Enter Valid positive Number");
+      alert("Please Enter Valid positive Number!!!!");
       return 0;
     }
     // Area (A) = b × h
@@ -77,12 +77,12 @@ document
 
     // alert for invalid Number
     if (isNaN(d1 && d2)) {
-      alert("Please Enter Valid Number");
+      alert("Please Enter Valid Number!!");
       return 0;
     }
     //  Alert for negative number
     if (d1 < 0 || d2 < 0) {
-      alert("Please Enter Valid positive Number");
+      alert("Please Enter Valid positive Number!!!!");
       return 0;
     }
     // Area (A) = 0.5 × d1 × d2
@@ -100,12 +100,12 @@ document
 
     // alert for invalid Number
     if (isNaN(p && b)) {
-      alert("Please Enter Valid Number");
+      alert("Please Enter Valid Number!!");
       return 0;
     }
     //  Alert for negative number
     if (p < 0 || b < 0) {
-      alert("Please Enter Valid positive Number");
+      alert("Please Enter Valid positive Number!!!!");
       return 0;
     }
     // Area (A) = 0.5 × p × b
@@ -122,12 +122,12 @@ document
     const Name = document.getElementById("name-ellipse").innerText;
     // alert for invalid Number
     if (isNaN(a && b)) {
-      alert("Please Enter Valid Number");
+      alert("Please Enter Valid Number!!");
       return 0;
     }
     //  Alert for negative number
     if (a < 0 || b < 0) {
-      alert("Please Enter Valid positive Number");
+      alert("Please Enter Valid positive Number!!!!");
       return 0;
     }
     // π=3.14
@@ -135,4 +135,3 @@ document
     const Area = 3.14 * a * b;
     SetAreaCalculation(Name, Area);
   });
-
