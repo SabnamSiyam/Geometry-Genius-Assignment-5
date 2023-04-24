@@ -18,10 +18,13 @@ function SerialCount() {
 function SetAreaCalculation(Name, Area) {
   const trElement = document.createElement("tr");
   const tableContainer = document.getElementById("table-container");
+  // Converting The Area value into Two Decimals
+  const TwoDecimalsArea = Area.toFixed(2);
+
   trElement.innerHTML = `
             <th class="font-bold text-2xl">${SerialCount()}</th>
             <td class="text-2xl">${Name}</td>
-            <td class="text-2xl">${Area}cm<sup>2</sup> </td>
+            <td class="text-2xl">${TwoDecimalsArea}cm<sup>2</sup> </td>
             <td><button class="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg">Convert to
           m<sup>2</sup></button></td>
             `;
