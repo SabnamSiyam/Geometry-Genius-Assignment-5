@@ -120,7 +120,6 @@ document
     const a = getInputFieldValueById("ellipse-inputfield-a");
     const b = getInputFieldValueById("ellipse-inputfield-b");
     const Name = document.getElementById("name-ellipse").innerText;
-
     // alert for invalid Number
     if (isNaN(a && b)) {
       alert("Please Enter Valid Number");
@@ -136,3 +135,4 @@ document
     const Area = 3.14 * a * b;
     SetAreaCalculation(Name, Area);
   });
+
